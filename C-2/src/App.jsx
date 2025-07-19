@@ -1,10 +1,14 @@
+import Display from "./components/Display"
+import NumberPad from "./components/NumberPad"
 function App() {
 
   return (
     <>
-      <h1 className='bg-green-400'>Calculator create using vite react and tailwindcss</h1>
+      <h1>Calculator</h1>
+      <Display textToShow="0" />
+      <NumberPad />
     </>
   )
 }
 
-export default App
+export default App;
