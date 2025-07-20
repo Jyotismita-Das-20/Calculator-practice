@@ -1,7 +1,9 @@
-const Button = ({text}) => {
-  return (
-    <button>{text}</button>
-  )
-};
+import React from 'react'
 
-export default Button;
+function Button({text, onClickHandler}) {
+  return (
+    <button onClick={onClickHandler}>{text}</button>
+  )
+}
+
+export default Button

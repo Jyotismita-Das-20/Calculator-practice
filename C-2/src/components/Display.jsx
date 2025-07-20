@@ -1,5 +1,7 @@
 const Display = ({textToShow}) => {
-  return <p>{textToShow}</p>
-}
+  return <>
+  {textToShow ? <p>{textToShow}</p> : <p>0</p>}
+  </>
+};
 
 export default Display;
